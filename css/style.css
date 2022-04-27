@@ -1,3 +1,55 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
 }
+
+.container {
+    max-width: 100%;
+}
+
+img {
+    max-width: 100%;
+}
+
+
+
+/* header */
+/* barra logo */
+header #logo-bar .row {
+    display: flex;
+    justify-content: flex-end;
+    text-align: center;
+    /* debug */
+    background: #000;
+    padding: 3px 8px;
+}
+
+#logo-bar .row img {
+    /* debug */
+    width: 80px;
+}
+
+/* barra menu */
+header #top-bar .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* debug */
+    background: #a7a7a7;
+}
+
+#top-bar .row img {
+    /* debug */
+    width: 50px;
+}
+
+
+/* jumbotron */
+#jumbotron .row {
+    /* debug */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    background: lime;
+    height: 500px;
+}
