@@ -77,3 +77,24 @@ main #product .row {
 #product .row:first-child span {
     padding-bottom: 30px;
 }
+
+
+
+
+/* prodotti in uscita */
+#new-releases .row:first-child {
+    display: flex;
+    justify-content: space-evenly;
+    /* debug */
+    background: url(../img/it-takes-two-hero-banner-desktop.jpg);
+    background-position: center;
+}
+
+#new-releases .row img:first-child {
+    width: 60%;
+}
+
+/* lista prodotti */
+#new-releases .row.row-cols-2 a img {
+    min-width: 100%;
+}
