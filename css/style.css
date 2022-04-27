@@ -19,6 +19,10 @@ li {
     list-style-type: none;
 }
 
+h2 {
+    font-size: 40px;
+}
+
 
 
 /* header */
@@ -59,16 +63,40 @@ header #top-bar .row {
     flex-direction: column;
     justify-content: space-evenly;
     align-items: flex-end;
-    background: lime;
-    height: 500px;
+    text-align: left;
+    color: white;
+    background: url(../img/jumbo-bg.png);
+    background-position: center;
+    background-size: cover; 
+    min-height: 550px;  
+}
+
+#jumbotron .row img {
+    /* debug */
+    margin-top: 200px;
+    width: 300px;
+}
+
+#jumbotron .row h3 {
+    font-size: 30px;
+}
+
+#jumbotron .row a {
+    padding: 15px;
+    border-radius: 50px;
+    background: #CD3D0F;
+    color: white;
 }
 
 /* slide */
 #slide .row.row-cols-2 {
     text-align: center;
-    /* debug */
-    background: red;
-    padding: 50px;
+    padding: 35px 0;
+}
+
+#slide .row.row-cols-2 a img {
+    margin-bottom: 25px;
+    border-radius: 12px;
 }
 
 
@@ -77,10 +105,33 @@ header #top-bar .row {
 /* product */
 main #product .row {
     text-align: center;
+    margin-bottom: 10px;
 }
 
-#product .row:first-child span {
+#product .row h1 {
+    margin-top: 60px;
+    font-size: 15px;
+    font-weight: 600;
+    color: #0072ce;
+}
+
+#product .row span {
+    display: block;
     padding-bottom: 30px;
+    text-align: center;
+    color: #a7a7a7;
+}
+
+#product .row:nth-child(2), #product .row:nth-child(2) span {
+    text-align: left;
+}
+
+#product .row:nth-child(2) a {
+    padding: 10px;
+    background: #0072ce;
+    border-radius: 50px;
+    font-size: 15px;
+    color: white;
 }
 
 
@@ -89,30 +140,113 @@ main #product .row {
 /* prodotti in uscita */
 #new-releases .row:first-child {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
+    color: white;
     /* debug */
     background: url(../img/it-takes-two-hero-banner-desktop.jpg);
     background-position: center;
+    background-size: cover;
+    min-height: 650px;
 }
 
-#new-releases .row img:first-child {
+#new-releases .row:first-child img {
+    margin: 40px 0;
     width: 60%;
 }
 
+#new-releases .row:first-child p {
+    padding: 30px 0;
+    text-align: left;
+    font-size: 15px;
+}
+
+#new-releases .row:first-child a {
+    padding: 15px;
+    background: #cd3d0f;
+    border-radius: 50px;
+    color: white;
+}
+
 /* lista prodotti */
+#new-releases .row.row-cols-2 {
+    padding-top: 20px;
+    background: #1f1f1f;
+    color: white;
+}
+
+#new-releases .row.row-cols-2 h4 {
+    font-size: 25px;
+}
+
+#new-releases .row.row-cols-2 span {
+    font-size: 20px;
+    margin-bottom: 15px;
+}
+
 #new-releases .row.row-cols-2 a img {
     min-width: 100%;
+    border-radius: 18px;
+}
+
+#new-releases .row.row-cols-2 a h5 {
+    color: white;
+    font-size: 17px;
+    margin-top: 10px;
+    margin-bottom: 50px;
 }
 
 
 /* prodotti PlayStation in dettaglio */
-#explore .row h4, p {
+#explore .row h2 {
+    padding-top: 50px;
     text-align: center;
 }
 
-#explore .row h5, span {
-    text-align: left;
+#explore .row img {
+    margin-top: 40px;
+}
+
+#explore .row span {
     display: block;
+    margin: 20px 0;
+    color: #a7a7a7;
+    text-align: left;
+}
+
+#explore .row h3 {
+    font-size: 35px;   
+}
+
+#explore .row a {
+    padding: 15px;
+    background: #0072ce;
+    border-radius: 50px;
+    color: white;
+}
+
+#explore .row:nth-child(2) {
+    display: flex;
+    justify-content: space-around;
+    background: #BEBCBB;
+    /* debug */
+    min-height: 270px;
+    margin-top: 120px;
+}
+
+#explore .row:nth-child(2) img {
+    margin-top: 30px;
+    height: 60px;
+}
+
+#explore .row:nth-child(2) span {
+    color: #000;
+    margin: 30px 0;
+    text-align: left;
+}
+
+#explore .row:nth-child(2) a {
+    background: #D9DADC;
+    color: #0072ce;
 }
 
 /* prodotti in sconto */
