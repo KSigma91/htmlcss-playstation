@@ -2,6 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
+/* impostazioni generali */
 .container {
     max-width: 100%;
 }
@@ -12,6 +13,10 @@ img {
 
 a {
     text-decoration: none;
+}
+
+li {
+    list-style-type: none;
 }
 
 
@@ -97,4 +102,84 @@ main #product .row {
 /* lista prodotti */
 #new-releases .row.row-cols-2 a img {
     min-width: 100%;
+}
+
+
+/* prodotti PlayStation in dettaglio */
+#explore .row h4, p {
+    text-align: center;
+}
+
+#explore .row h5, span {
+    text-align: left;
+    display: block;
+}
+
+/* prodotti in sconto */
+#sales .row {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+    text-align: center;
+}
+
+#sales .row img {
+    margin: 20px 0;
+}
+
+#sales .row:nth-child(3) {
+    text-align: left;
+}
+
+
+/* social media */
+#social .row.row-cols-2 img {
+    margin: 20px 0;
+}
+
+
+
+/* footer */
+#nav-footer .row {
+    color: white;
+    font-size: 12px;
+    /* debug */
+    background: deepskyblue;
+}
+
+#nav-footer .row img {
+    /* debug */
+    margin-top: 50px;
+    min-width: 50px;
+}
+
+/* opzioni */
+#nav-footer .row:nth-child(2) a {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#nav-footer .row:nth-child(2) a img {
+    /* debug */
+    min-width: 25px;
+    height: 20px;
+}
+
+/* link */
+#nav-footer .row nav ul li a {
+    color: white;
+}
+
+/* disclaimer */
+#nav-footer .row:nth-child(4) img {
+    /* debug */
+    min-width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+#nav-footer .row:nth-child(4) p {
+    text-align: left;
 }
