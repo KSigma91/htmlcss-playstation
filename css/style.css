@@ -10,6 +10,10 @@ img {
     max-width: 100%;
 }
 
+a {
+    text-decoration: none;
+}
+
 
 
 /* header */
@@ -20,12 +24,12 @@ header #logo-bar .row {
     text-align: center;
     /* debug */
     background: #000;
-    padding: 3px 8px;
+    padding: 2px 0;
 }
 
 #logo-bar .row img {
     /* debug */
-    width: 80px;
+    min-width: 50px;
 }
 
 /* barra menu */
@@ -39,7 +43,7 @@ header #top-bar .row {
 
 #top-bar .row img {
     /* debug */
-    width: 50px;
+    min-width: 40px;
 }
 
 
@@ -52,4 +56,24 @@ header #top-bar .row {
     align-items: flex-end;
     background: lime;
     height: 500px;
+}
+
+/* slide */
+#slide .row.row-cols-2 {
+    text-align: center;
+    /* debug */
+    background: red;
+    padding: 50px;
+}
+
+
+
+/* main */
+/* product */
+main #product .row {
+    text-align: center;
+}
+
+#product .row:first-child span {
+    padding-bottom: 30px;
 }
