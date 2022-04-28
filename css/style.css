@@ -168,27 +168,28 @@ main #product .row {
 }
 
 /* lista prodotti */
-#new-releases .row.row-cols-2 {
+#new-releases .row {
     padding-top: 20px;
     background: #1f1f1f;
     color: white;
 }
 
-#new-releases .row.row-cols-2 h4 {
+#new-releases .row h4 {
+    margin-bottom: 20px;
     font-size: 25px;
 }
 
-#new-releases .row.row-cols-2 span {
+#new-releases .row h5 {
+    margin-bottom: 20px;
     font-size: 20px;
-    margin-bottom: 15px;
 }
 
-#new-releases .row.row-cols-2 a img {
+#new-releases .row a img {
     min-width: 100%;
     border-radius: 18px;
 }
 
-#new-releases .row.row-cols-2 a h5 {
+#new-releases .row a h5 {
     color: white;
     font-size: 17px;
     margin-top: 10px;
@@ -303,13 +304,18 @@ main #product .row {
 
 
 /* social media */
-#social .row.row-cols-2 h3 {
+#social .row {
+    display: flex;
+    justify-content: center;
+}
+
+#social .row h3 {
     margin: 55px;
     text-align: center;
 }
 
-#social .row.row-cols-2 img {
-    margin-bottom: 50px;
+#social .row img {
+    margin-bottom: 20px;
 }
 
 
