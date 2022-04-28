@@ -89,12 +89,12 @@ header #top-bar .row {
 }
 
 /* slide */
-#slide .row.row-cols-2 {
+#slide .row {
     text-align: center;
     padding: 35px 0;
 }
 
-#slide .row.row-cols-2 a img {
+#slide .row a img {
     margin-bottom: 25px;
     border-radius: 12px;
 }
@@ -102,7 +102,7 @@ header #top-bar .row {
 
 
 /* main */
-/* product */
+/* prodotti PlayStation */
 main #product .row {
     text-align: center;
     margin-bottom: 10px;
@@ -132,6 +132,11 @@ main #product .row {
     border-radius: 50px;
     font-size: 15px;
     color: white;
+}
+
+#product .row:nth-child(3) {
+    display: flex;
+    justify-content: space-evenly;
 }
 
 
