@@ -37,10 +37,41 @@
                             <span class="navbar-toggler-icon"></span>
                         </button>
                         <!-- menu a comparsa -->
-                        <div class="collapse navbar-collapse" id="navbarSupportedContent1"></div>
+                        <div class="collapse navbar-collapse" id="navbarToggleExternalContent">
+                            <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">Giochi</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">Hardware</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">Servizi</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">Novità</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">Fai acquisti</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">Supporto</a>
+                              </li>
+                              <li class="nav-item active">
+                                <a class="nav-link" href="#">My PlayStation</a>
+                              </li>
+                              <div class="col">
+
+                              </div>
+                              <button class="rounded-pill bg-dark text-light border-0 px-5 p-2 mt-4 me-auto" type="button">Accedi</button>
+                                    <a class="border border-secondary my-3" href="#">
+                                        <img src="img/lens.svg" alt="lens_img">
+                                    </a>                   
+                            </ul>
+                          </div>
                     </nav>
 
-
+                    <!-- barra menu lg -->
                     <nav class="navbar navbar-expand-sm navbar-light bg-light d-none d-sm-none d-md-none d-lg-flex">
                         <a class="navbar-brand" href="#">
                             <img src="img/play_logo.svg" alt="playstation_logo_img">
@@ -55,9 +86,21 @@
                                 <li class="nav-item dropdown">
                                     <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Giochi</a>
                                     <ul class="dropdown-menu">
-                                      <li><a class="dropdown-item" href="#">Link</a></li>
-                                      <li><a class="dropdown-item" href="#">Another link</a></li>
-                                      <li><a class="dropdown-item" href="#">A third link</a></li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="play_menu_img">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="play_menu_img">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="play_menu_img">
+                                            </a>
+                                        </li>    
                                     </ul>
                                   </li>
                                 <!-- hardware -->
@@ -165,7 +208,35 @@
                                         </li>    
                                     </ul>
                                 </li>
+                                <!-- My PlayStation -->
+                                <li class="nav-item dropdown">
+                                    <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">My PlayStation</a>
+                                    <ul class="dropdown-menu">
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="play_menu_img">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="play_menu_img">
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a class="dropdown-item" href="#">
+                                                <img src="img/play-menu-ico.png" alt="play_menu_img">
+                                            </a>
+                                        </li>    
+                                    </ul>
+                                </li>
                             </ul>
+                            <form class="d-flex">
+                                <button class="rounded-pill px-3 mx-4 bg-dark text-light border-0 " type="button">Accedi</button>
+                                    <a href="#">
+                                        <img src="img/lens.svg" alt="lens_img">
+                                    </a>
+                                </button>
+                              </form>
                         </div>
                     </nav>
                 </div>
@@ -786,5 +857,7 @@
 
     </div>
     
+    <!-- Bootstrap Bundle -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 </body>
 </html>
