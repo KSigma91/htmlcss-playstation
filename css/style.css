@@ -223,7 +223,7 @@ main #product .row {
 #explore .row:nth-child(2) {
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     background: #BEBCBB;
     min-height: 320px;
     margin-top: 120px;
@@ -252,6 +252,7 @@ main #product .row {
 
 /* prodotti in sconto */
 #sales .row {
+    padding: 20px;
     display: flex;
     justify-content: space-evenly;
     margin-top: 30px;
@@ -287,6 +288,7 @@ main #product .row {
 
 #sales .row:nth-child(3) img {
     max-width: 300px;
+    max-height: 50px;
 }
 
 #sales .row:nth-child(3) span {
@@ -356,10 +358,6 @@ footer #nav-footer {
 }
 
 /* link */
-#nav-footer .row:nth-child(1) nav {
-    /* margin: 20px 0; */
-}
-
 #nav-footer .row:nth-child(1) nav ul li a {
     margin: 0;
     color: white;
