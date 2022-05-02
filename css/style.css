@@ -7,6 +7,10 @@ body {
     max-width: 100%;
 }
 
+.row .container {
+    max-width: 1600px;
+}
+
 img {
     max-width: 100%;
 }
@@ -36,11 +40,10 @@ h2 {
     width: 80px;  
 }
 
-
+/* main */
 /* jumbotron */
 #jumbotron .row {
     padding: 20px;
-    /* margin-top: 40px; */
     text-align: left;
     color: white;
     background: url(../img/jumbo-bg.png);
@@ -80,7 +83,6 @@ h2 {
 
 
 
-/* main */
 /* prodotti PlayStation */
 main #product .row {
     padding: 20px;
@@ -222,21 +224,21 @@ main #product .row {
 /* PlayStation Plus */
 #explore .row:nth-child(2) {
     padding: 20px;
-    display: flex;
-    justify-content: space-between;
+    /* display: flex;
+    justify-content: space-between; */
     background: #BEBCBB;
-    min-height: 320px;
     margin-top: 120px;
 }
 
 #explore .row:nth-child(2) img {
-    margin-top: 30px;
-    height: 60px;
+    max-width: 60%;
+    margin: 0;
+    margin-bottom: 20px;
 }
 
-#explore .row:nth-child(2) span {
+#explore .row:nth-child(2) p {
     color: #000;
-    margin: 30px 0;
+    margin: 20px 0;
     font-size: 13px;
     text-align: left;
 }
@@ -283,22 +285,19 @@ main #product .row {
 #sales .row:nth-child(3) {
     padding: 20px;
     background: #151C3B;
-    min-height: 300px;
 }
 
 #sales .row:nth-child(3) img {
-    max-width: 300px;
-    max-height: 50px;
+    max-width: 60%;
 }
 
-#sales .row:nth-child(3) span {
-    margin: 40px 0;
+#sales .row:nth-child(3) p {
+    margin: 20px 0;
     color: white;
     text-align: left;
 }
 
 #sales .row:nth-child(3) a {
-    margin: 30px 0;
     padding: 13px 15px;
     background: white;
     border: 0;
