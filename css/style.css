@@ -48,7 +48,7 @@ h2 {
     width: 60px;
 }
 
-#wrap .row nav:nth-child(3) a > i {
+#wrap .row nav:nth-child(2) a > i, #wrap .row nav:nth-child(3) a > i {
     font-size: .7em;
     color: #BEBCBB;
     margin-left: 5px;
@@ -70,6 +70,12 @@ h2 {
 
 #jumbotron .row img {
     width: 250px;
+}
+
+@media screen and (max-width: 991px) {
+    #jumbotron .row img {
+        width: 450px;
+    }
 }
 
 #jumbotron .row big {
@@ -98,7 +104,7 @@ h2 {
 
 #slide .row a:hover img {
     outline: .2em solid #0072ce;
-    outline-offset: .3em;
+    outline-offset: .2em;
 }
 
 /* prodotti PlayStation */
@@ -157,8 +163,8 @@ main #product .row {
     justify-content: space-between;
     color: white;
     background: url(../img/it-takes-two-hero-banner-desktop.jpg);
-    background-position: center -110px;
-    background-size: fill;
+    background-position: center;
+    background-size: cover;
     min-height: 90vh;
 }
 
@@ -174,7 +180,6 @@ main #product .row {
 #new-releases .row:first-child p {
     padding: 30px 0;
     text-align: left;
-    font-size: 15px;
 }
 
 #new-releases .row:first-child a {
@@ -255,7 +260,7 @@ main #product .row {
     min-height: 56vh;
 }
 
-@media screen and (max-width: 968px) {
+@media screen and (max-width: 928px) {
     #explore .row:nth-child(2) {
         background: none;
         background-color: #BEBCBB;
@@ -325,6 +330,20 @@ main #product .row {
     background-repeat: no-repeat;
     background-size: contain;
     min-height: 62vh;
+}
+
+@media screen and (max-width: 928px) {
+    #sales .row:nth-child(3) {
+        background: none;
+        background-color: #151C3B;
+    }
+}
+
+@media screen and (max-width: 576px) {
+    #sales .row:nth-child(3) {
+        background: none;
+        background-color: #151C3B;
+    }
 }
 
 #sales .row:nth-child(3) img {
