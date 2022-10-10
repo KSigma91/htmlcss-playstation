@@ -124,12 +124,12 @@ main #product .row {
     font-size: 3em;
 }
 
-#product .row p {
+#product .row p, #product .row:nth-child(2) p {
     text-align: center;
-    color: #a7a7a7;
+    color: #727272;
 }
 
-#product .row:nth-child(2), #product .row:nth-child(2) span {
+#product .row:nth-child(2), #product .row:nth-child(2) p {
     text-align: left;
 }
 
@@ -232,7 +232,7 @@ main #product .row {
 
 #explore .row p {
     margin: 20px 0;
-    color: #a7a7a7;
+    color: #727272;
     text-align: center;
 }
 
@@ -308,7 +308,7 @@ main #product .row {
 
 #sales .row p {
     margin-top: 40px;
-    color: #a7a7a7;
+    color: #727272;
 }
 
 /* thumbnail sconti */
